@@ -1,0 +1,84 @@
+{
+  "config": {
+    "height": 1.0,
+    "width": 2.0,
+    "energy": 0.7,
+    "sigma": 10.0,
+    "x0": -60.0,
+    "half_box": 180.0,
+    "dx": 0.1,
+    "dt": 0.01,
+    "final_time": 110.0,
+    "snapshots": 161,
+    "method": "fft"
+  },
+  "T_numerical": 0.14485507849683696,
+  "R_numerical": 0.8551449212365848,
+  "barrier_remaining": 2.6651414923294645e-10,
+  "T_theory": 0.1450616936897237,
+  "absolute_T_error": 0.0002066151928867277,
+  "norm_drift": 2.7045032879868813e-13,
+  "initial_norm_error": 0.0,
+  "max_edge_probability": 4.5801762441577056e-10,
+  "max_high_k_fraction": 4.756623151144322e-09,
+  "plateau_change_last_10_percent": 2.2823773537794523e-08,
+  "initial_negative_momentum_weight": 4.2032868161017845e-124,
+  "fits": {
+    "R": {
+      "fit": {
+        "mass": 0.8551416195611823,
+        "center": -69.74029459727804,
+        "sigma": 11.386823396810849,
+        "density_peak": 0.029960256331845833,
+        "wavefunction_peak_magnitude": 0.17309031264587232,
+        "relative_L2_residual": 0.00023598377219976612
+      },
+      "phase_only_prediction": {
+        "center": -69.92074636728643,
+        "sigma": 11.365131340349317,
+        "velocity": -1.1832159566199232,
+        "phase_prime": 0.2330088609051296,
+        "phase_second": 1.9884999022969558,
+        "relative_delay": 0.19692843018341538
+      },
+      "filtered_prediction": {
+        "center": -69.75120551018205,
+        "sigma": 11.386355868155281,
+        "velocity": -1.1816463010096314,
+        "phase_prime": 0.2330088609051296,
+        "phase_second": 1.9884999022969558,
+        "relative_delay": 0.19692843018341538,
+        "density_peak": 0.029954363052699638
+      },
+      "fitted_velocity": -1.181623213270373
+    },
+    "T": {
+      "fit": {
+        "mass": 0.14485464542985482,
+        "center": 70.9379210406491,
+        "sigma": 11.369073464663629,
+        "density_peak": 0.005082968524580382,
+        "wavefunction_peak_magnitude": 0.0712949403855588,
+        "relative_L2_residual": 0.00010836134387602945
+      },
+      "phase_only_prediction": {
+        "center": 69.92074636728684,
+        "sigma": 11.365131340333571,
+        "velocity": 1.1832159566199232,
+        "phase_prime": 0.23300886090472095,
+        "phase_second": 1.9884999029596582,
+        "relative_delay": 0.19692843018307002
+      },
+      "filtered_prediction": {
+        "center": 70.94602351080906,
+        "sigma": 11.36904124992146,
+        "velocity": 1.1927082527421053,
+        "phase_prime": 0.23300886090472095,
+        "phase_second": 1.9884999029596582,
+        "relative_delay": 0.19692843018307002,
+        "density_peak": 0.005090248298630483
+      },
+      "fitted_velocity": 1.192698963897753
+    }
+  }
+}

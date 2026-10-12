@@ -1,0 +1,13 @@
+Local reference build: 2026-09-15
+
+python -m pytest -q
+7 passed
+
+python scripts/run_experiments.py --suite all --animate
+Completed: 2 demonstrations, 9 sweep points, 14 convergence runs.
+
+python scripts/check_results.py
+PASS: spatial/time refinement, box independence, boundary warning, norm,
+plateaus, Gaussian shapes, centers, widths and velocities.
+
+GitHub Actions is configured but has not been executed remotely.
